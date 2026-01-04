@@ -28,8 +28,7 @@ mysqli_close($conn);
             <td>{$row['department']}</td>
             <td>
                 <a href='edit.php?id={$row['id']}'>Edit</a> |
-                <a href='delete.php?id={$row['id']}'
-                   onclick=\"return confirm('Are you sure?')\">Delete</a>
+                 <a href='delete.php?id={$row['id']}'>Delete</a>
             </td>
         </tr>";
     }
